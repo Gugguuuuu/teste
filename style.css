@@ -1,0 +1,140 @@
+/* #CDB380 (Amarelo Renascentista): Representando o ouro das obras de arte renascentistas.
+/*'#8B5F33 (Marrom Renascentista): Evocando os tons terrosos presentes nas pinturas da época.
+/* #2E3D49 (Azul Renascentista): Lembra os azuis profundos usados em pinturas renascentistas, como o azul ultramarino.
+/* #D9D5C5 (Bege Renascentista): Representando a paleta de cores suaves e neutras também presentes em algumas obras. */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100%;
+    height: 120vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #2e2d49;
+}
+
+.header{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:#2e2d49;
+}
+
+.marca{
+    font-family: 'Courier New', Courier, monospace;
+    margin-right: 200px;
+    color: azure;
+    font-size: 25px;
+}
+
+.Title{
+    font-family:Arial, Helvetica, sans-serif;
+    color: azure;
+    letter-spacing: 2px;
+    scale: 1.5;
+}
+
+.caixa_links{
+    margin-left: 200px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.links{
+    margin: 15px;
+    font-size: 18px;
+    text-decoration: none;
+    color: azure;
+    font-weight: bold;
+    letter-spacing: 1px;
+    transition: 0.5s;
+}
+
+.links:hover{
+    color: rgb(140, 140, 140);
+    font-size: 22px;
+}
+
+main{
+    width: 100%;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+}
+
+section{
+    width: 100%;
+    height: 14vh;
+    padding: 30px;
+    background-color: #CDB380;
+    display: flex;
+    flex-direction: column;
+}
+
+#Question-1{
+    font-size: 30px;
+    color: #2e2d49;
+    font-weight: bold;
+    text-shadow: 3px 3px 3px #737878;
+    margin-left: 1rem;
+}
+
+.resp{
+    font-size: 17px;
+    margin-left: 60px;
+    margin-top: 20px;
+}
+
+#section-1{
+    width: 100%;
+    height: 44vh;
+    background-color:#8B5F33 ;
+    padding: 30px;
+}
+
+#Question-2{
+    font-size: 30px;
+    color: #D9D5C5;
+    font-weight: bold;
+    text-shadow: 5px 5px 4px  #000000;
+    margin-left: 1rem;
+}
+
+strong{
+    font-family: 'Courier New', Courier, monospace;
+    color: azure;
+}
+
+span{
+    font-weight: bold;
+}
+
+footer{
+    width: 100%;
+    height: 20%;
+    background-color: #2e2d49;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 180px;
+}
+.icons{
+    margin-top: 10px;
+}
+
+#TitleFotter{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 30px;
+    color: #f0ffff;
+}
+#Negrito{
+    color: #000000;
+    font-weight: bold;
+}
